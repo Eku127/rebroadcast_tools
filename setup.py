@@ -20,7 +20,9 @@ setup(
             'rebroadcast_chatter = rebroadcast_tools.rebroadcast_chatter:main',
             # 后续添加更多节点入口
             'rebroadcast_image_compressed = rebroadcast_tools.rebroadcast_image_compressed:main',
-
+            'rebroadcast_image_raw = rebroadcast_tools.rebroadcast_image_raw:main',
+            'rebroadcast_sensors = rebroadcast_tools.rebroadcast_sensors:main',
+            'rebroadcast_odom = rebroadcast_tools.rebroadcast_odom:main',
         ],
     },
 )
